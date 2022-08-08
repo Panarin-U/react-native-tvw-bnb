@@ -1,0 +1,1 @@
+export { default as BackWhite } from './backWhite.svg'
