@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  VROOM
+//
+//  Created by Panarin Ua-angkoonchaisree on 2/3/2565 BE.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"

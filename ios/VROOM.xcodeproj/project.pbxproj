@@ -1,0 +1,2089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A017D5A3C24F30B998D141 /* NotoSansSC-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B7408776B5407BBDF4D0DB /* NotoSansSC-Thin.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13E8CB3F80344CBA9190A593 /* NotoSansSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7B2C572B49144269907C2B5 /* NotoSansSC-Bold.otf */; };
+		18DA3433A7E94F299476C41B /* NotoSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A013AB7B2903448B820BDCF1 /* NotoSans-Thin.ttf */; };
+		1948A516D0864A10ADE241D6 /* NotoSansSC-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA3C3A5BAA24044A2C5FCD8 /* NotoSansSC-Black.otf */; };
+		1F54EDD97E564AB195FAC44C /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD60C7C2A494971B45C758F /* NotoSans-Regular.ttf */; };
+		232F10B9439A7E3119A574DF /* libPods-ALL-VROOM-inhouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ECA8A4C43133F1CF77EEAE /* libPods-ALL-VROOM-inhouse.a */; };
+		29A13929FEE3457183D0DD7D /* NotoSansSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68AF8CCCB483F9B9DD4ED /* NotoSansSC-Regular.otf */; };
+		29C944A7EA9540EB93AFE5CD /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF8B9E7303C4E7ABA3BFA98 /* NotoSans-Bold.ttf */; };
+		304A0E938C0D4B7DB5716C1B /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1465C5293842339D1B70E8 /* NotoSans-Medium.ttf */; };
+		316775BC9E5044329D8CEEF6 /* NotoSansThai-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89EB1DF03BA142D5A6CE5A69 /* NotoSansThai-Black.ttf */; };
+		38E642175D5748E49521B2BE /* NotoSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7882F92849541D38B65AC02 /* NotoSansThai-Bold.ttf */; };
+		404816120125307A6A1DC2D9 /* libPods-ALL-VROOM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2021F550F237B904785D424 /* libPods-ALL-VROOM.a */; };
+		406A0F06F39A4992B7BC5F45 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F8294B86924846AC387885 /* NotoSans-Light.ttf */; };
+		426F427801544FE397F6299F /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 207ECEBB313943189A02AF61 /* NotoSans-Black.ttf */; };
+		4F9A374D60CF4268A0FCE3A9 /* NotoSansThai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2CE9B5B50104668A6DD13E1 /* NotoSansThai-Medium.ttf */; };
+		72C48143C8E544D682939887 /* NotoSansThai-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 416EF714B6614969B5F19284 /* NotoSansThai-Thin.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8EF570F901F441A49C6C5FCD /* NotoSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 814FA45DF74B481A8A228BC9 /* NotoSansThai-Light.ttf */; };
+		984D1CCDBB694DB254FA17CD /* libPods-ALL-VROOM-beta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317CAE339C662010C4770389 /* libPods-ALL-VROOM-beta.a */; };
+		9B4EECC02851A86700DCDF6C /* effects in Resources */ = {isa = PBXBuildFile; fileRef = AE5339ED28195E1500BADAC2 /* effects */; };
+		9B4EECE32851A8D200DCDF6C /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4386C27E6424700158EC9 /* AppCenter-Config.plist */; };
+		9B6E35E9282539BE000D569D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		9B6E35EA282539BE000D569D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		9B6E35EF282539BE000D569D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B6E35F0282539BE000D569D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		9B6E35F1282539BE000D569D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD60C7C2A494971B45C758F /* NotoSans-Regular.ttf */; };
+		9B6E35F2282539BE000D569D /* NotoSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8865CB5A09F41FB941B129C /* NotoSansThai-Regular.ttf */; };
+		9B6E35F3282539BE000D569D /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF8B9E7303C4E7ABA3BFA98 /* NotoSans-Bold.ttf */; };
+		9B6E35F4282539BE000D569D /* NotoSansThai-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89EB1DF03BA142D5A6CE5A69 /* NotoSansThai-Black.ttf */; };
+		9B6E35F5282539BE000D569D /* NotoSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7882F92849541D38B65AC02 /* NotoSansThai-Bold.ttf */; };
+		9B6E35F6282539BE000D569D /* NotoSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 814FA45DF74B481A8A228BC9 /* NotoSansThai-Light.ttf */; };
+		9B6E35F7282539BE000D569D /* NotoSansThai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2CE9B5B50104668A6DD13E1 /* NotoSansThai-Medium.ttf */; };
+		9B6E35F8282539BE000D569D /* NotoSansThai-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 416EF714B6614969B5F19284 /* NotoSansThai-Thin.ttf */; };
+		9B6E35F9282539BE000D569D /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 207ECEBB313943189A02AF61 /* NotoSans-Black.ttf */; };
+		9B6E35FA282539BE000D569D /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F8294B86924846AC387885 /* NotoSans-Light.ttf */; };
+		9B6E35FB282539BE000D569D /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1465C5293842339D1B70E8 /* NotoSans-Medium.ttf */; };
+		9B6E35FC282539BE000D569D /* NotoSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A013AB7B2903448B820BDCF1 /* NotoSans-Thin.ttf */; };
+		9B6E35FD282539BE000D569D /* NotoSansSC-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA3C3A5BAA24044A2C5FCD8 /* NotoSansSC-Black.otf */; };
+		9B6E35FE282539BE000D569D /* NotoSansSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7B2C572B49144269907C2B5 /* NotoSansSC-Bold.otf */; };
+		9B6E35FF282539BE000D569D /* NotoSansSC-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74362997B7674A7183F4323A /* NotoSansSC-Light.otf */; };
+		9B6E3600282539BE000D569D /* NotoSansSC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7232628B4084CAA80FB7E9A /* NotoSansSC-Medium.otf */; };
+		9B6E3601282539BE000D569D /* NotoSansSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68AF8CCCB483F9B9DD4ED /* NotoSansSC-Regular.otf */; };
+		9B6E3602282539BE000D569D /* NotoSansSC-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B7408776B5407BBDF4D0DB /* NotoSansSC-Thin.otf */; };
+		9B6E360F28253AB2000D569D /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E272F27ABA7D300DB3C47 /* SocketConnection.swift */; };
+		9B6E361028253AB2000D569D /* SampleUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273327ABAC3D00DB3C47 /* SampleUploader.swift */; };
+		9B6E361128253AB2000D569D /* DarwinNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273127ABAB7800DB3C47 /* DarwinNotificationCenter.swift */; };
+		9B6E361228253AB2000D569D /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E272527AB920300DB3C47 /* SampleHandler.swift */; };
+		9B6E361328253AB2000D569D /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273627ABAC7B00DB3C47 /* Atomic.swift */; };
+		9B6E361C28253ADB000D569D /* Broadcast Extension-beta.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B6E361A28253AB2000D569D /* Broadcast Extension-beta.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B6E362128253CEB000D569D /* VROOM-beta-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B6E362028253CEB000D569D /* VROOM-beta-Info.plist */; };
+		9B6E362328253D4B000D569D /* Broadcast Extension-beta-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B6E362228253D4B000D569D /* Broadcast Extension-beta-Info.plist */; };
+		9B6FE07D27E1CF7B00DB6D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		9B6FE07E27E1CF7B00DB6D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		9B6FE08327E1CF7B00DB6D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B6FE08427E1CF7B00DB6D14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		9B6FE08527E1CF7B00DB6D14 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD60C7C2A494971B45C758F /* NotoSans-Regular.ttf */; };
+		9B6FE08627E1CF7B00DB6D14 /* NotoSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8865CB5A09F41FB941B129C /* NotoSansThai-Regular.ttf */; };
+		9B6FE08727E1CF7B00DB6D14 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF8B9E7303C4E7ABA3BFA98 /* NotoSans-Bold.ttf */; };
+		9B6FE08827E1CF7B00DB6D14 /* NotoSansThai-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89EB1DF03BA142D5A6CE5A69 /* NotoSansThai-Black.ttf */; };
+		9B6FE08927E1CF7B00DB6D14 /* NotoSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7882F92849541D38B65AC02 /* NotoSansThai-Bold.ttf */; };
+		9B6FE08C27E1CF7B00DB6D14 /* NotoSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 814FA45DF74B481A8A228BC9 /* NotoSansThai-Light.ttf */; };
+		9B6FE08D27E1CF7B00DB6D14 /* NotoSansThai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2CE9B5B50104668A6DD13E1 /* NotoSansThai-Medium.ttf */; };
+		9B6FE08F27E1CF7B00DB6D14 /* NotoSansThai-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 416EF714B6614969B5F19284 /* NotoSansThai-Thin.ttf */; };
+		9B6FE09027E1CF7B00DB6D14 /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 207ECEBB313943189A02AF61 /* NotoSans-Black.ttf */; };
+		9B6FE09327E1CF7B00DB6D14 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F8294B86924846AC387885 /* NotoSans-Light.ttf */; };
+		9B6FE09427E1CF7B00DB6D14 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1465C5293842339D1B70E8 /* NotoSans-Medium.ttf */; };
+		9B6FE09627E1CF7B00DB6D14 /* NotoSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A013AB7B2903448B820BDCF1 /* NotoSans-Thin.ttf */; };
+		9B6FE0A427E1D28900DB6D14 /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E272F27ABA7D300DB3C47 /* SocketConnection.swift */; };
+		9B6FE0A527E1D28900DB6D14 /* SampleUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273327ABAC3D00DB3C47 /* SampleUploader.swift */; };
+		9B6FE0A627E1D28900DB6D14 /* DarwinNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273127ABAB7800DB3C47 /* DarwinNotificationCenter.swift */; };
+		9B6FE0A727E1D28900DB6D14 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E272527AB920300DB3C47 /* SampleHandler.swift */; };
+		9B6FE0A827E1D28900DB6D14 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273627ABAC7B00DB3C47 /* Atomic.swift */; };
+		9B6FE0AA27E1D28900DB6D14 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94E272227AB920300DB3C47 /* ReplayKit.framework */; };
+		9B6FE0B627E20A9100DB6D14 /* Broadcast Extension-inhouse.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B6FE0AF27E1D28900DB6D14 /* Broadcast Extension-inhouse.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BF10AB527E6D2A20092E3FE /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4386C27E6424700158EC9 /* AppCenter-Config.plist */; };
+		9BF30EDC20584A95B271E9DE /* NotoSansSC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7232628B4084CAA80FB7E9A /* NotoSansSC-Medium.otf */; };
+		A215136694734C6B80F03BC8 /* NotoSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8865CB5A09F41FB941B129C /* NotoSansThai-Regular.ttf */; };
+		A94E272327AB920300DB3C47 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94E272227AB920300DB3C47 /* ReplayKit.framework */; };
+		A94E272627AB920300DB3C47 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E272527AB920300DB3C47 /* SampleHandler.swift */; };
+		A94E272A27AB920300DB3C47 /* Broadcast Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A94E272127AB920300DB3C47 /* Broadcast Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A94E273027ABA7D300DB3C47 /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E272F27ABA7D300DB3C47 /* SocketConnection.swift */; };
+		A94E273227ABAB7800DB3C47 /* DarwinNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273127ABAB7800DB3C47 /* DarwinNotificationCenter.swift */; };
+		A94E273427ABAC3D00DB3C47 /* SampleUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273327ABAC3D00DB3C47 /* SampleUploader.swift */; };
+		A94E273727ABAC7B00DB3C47 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E273627ABAC7B00DB3C47 /* Atomic.swift */; };
+		AE207A5528520874005CB3E9 /* MetalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B0B2823B79F00627A31 /* MetalHelper.swift */; };
+		AE207A5628520874005CB3E9 /* MetalConstanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B0E2823B7C100627A31 /* MetalConstanst.swift */; };
+		AE207A5728520874005CB3E9 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE48A10282D4D3400D00694 /* UIImage+Orientation.swift */; };
+		AE207A5828520874005CB3E9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B082823B78A00627A31 /* Shaders.metal */; };
+		AE207A5928520875005CB3E9 /* MetalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B0B2823B79F00627A31 /* MetalHelper.swift */; };
+		AE207A5A28520875005CB3E9 /* MetalConstanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B0E2823B7C100627A31 /* MetalConstanst.swift */; };
+		AE207A5B28520875005CB3E9 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE48A10282D4D3400D00694 /* UIImage+Orientation.swift */; };
+		AE207A5C28520875005CB3E9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B082823B78A00627A31 /* Shaders.metal */; };
+		AE207A5D28520876005CB3E9 /* MetalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B0B2823B79F00627A31 /* MetalHelper.swift */; };
+		AE207A5E28520876005CB3E9 /* MetalConstanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B0E2823B7C100627A31 /* MetalConstanst.swift */; };
+		AE207A5F28520876005CB3E9 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE48A10282D4D3400D00694 /* UIImage+Orientation.swift */; };
+		AE207A6028520876005CB3E9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B082823B78A00627A31 /* Shaders.metal */; };
+		AE207A612852087A005CB3E9 /* DeepLabV3Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B042823962300627A31 /* DeepLabV3Int8LUT.mlmodel */; };
+		AE207A622852087B005CB3E9 /* DeepLabV3Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B042823962300627A31 /* DeepLabV3Int8LUT.mlmodel */; };
+		AE207A632852087C005CB3E9 /* DeepLabV3Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3B042823962300627A31 /* DeepLabV3Int8LUT.mlmodel */; };
+		AE207A6428520880005CB3E9 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ADA2823956E00627A31 /* Math.swift */; };
+		AE207A6528520880005CB3E9 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACC2823956D00627A31 /* NonMaxSuppression.swift */; };
+		AE207A6628520880005CB3E9 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACE2823956D00627A31 /* UIImage+Extensions.swift */; };
+		AE207A6728520880005CB3E9 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD82823956E00627A31 /* Predictions.swift */; };
+		AE207A6828520880005CB3E9 /* UIImage+CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACF2823956D00627A31 /* UIImage+CustomExtensions.swift */; };
+		AE207A6928520880005CB3E9 /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD52823956E00627A31 /* UIImage+RawBytes.swift */; };
+		AE207A6A28520880005CB3E9 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD92823956E00627A31 /* UIImage+CVPixelBuffer.swift */; };
+		AE207A6B28520880005CB3E9 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACB2823956D00627A31 /* MLMultiArray+Image.swift */; };
+		AE207A6C28520880005CB3E9 /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACD2823956D00627A31 /* CGImage+RawBytes.swift */; };
+		AE207A6D28520880005CB3E9 /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD32823956E00627A31 /* CGImagePropertyOrientation.swift */; };
+		AE207A6E28520880005CB3E9 /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD22823956E00627A31 /* GradientPoint.swift */; };
+		AE207A6F28520880005CB3E9 /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACA2823956D00627A31 /* MLMultiArray+Helpers.swift */; };
+		AE207A7028520880005CB3E9 /* CoreML+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AC92823956D00627A31 /* CoreML+Combine.swift */; };
+		AE207A7128520880005CB3E9 /* CVPixelBuffer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD72823956E00627A31 /* CVPixelBuffer+Create.swift */; };
+		AE207A7228520880005CB3E9 /* AvCaptureOrientation+ETS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E62819359C00BADAC2 /* AvCaptureOrientation+ETS.swift */; };
+		AE207A7328520880005CB3E9 /* CVPixelBuffer+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD62823956E00627A31 /* CVPixelBuffer+Resize.swift */; };
+		AE207A7428520880005CB3E9 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AFF2823957700627A31 /* Array+Extensions.swift */; };
+		AE207A7528520880005CB3E9 /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD02823956D00627A31 /* CGImage+CVPixelBuffer.swift */; };
+		AE207A7628520880005CB3E9 /* MLModel+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD12823956D00627A31 /* MLModel+Images.swift */; };
+		AE207A7728520880005CB3E9 /* CVPixelBuffer+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD42823956E00627A31 /* CVPixelBuffer+Rotate.swift */; };
+		AE207A7828520881005CB3E9 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ADA2823956E00627A31 /* Math.swift */; };
+		AE207A7928520881005CB3E9 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACC2823956D00627A31 /* NonMaxSuppression.swift */; };
+		AE207A7A28520881005CB3E9 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACE2823956D00627A31 /* UIImage+Extensions.swift */; };
+		AE207A7B28520881005CB3E9 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD82823956E00627A31 /* Predictions.swift */; };
+		AE207A7C28520881005CB3E9 /* UIImage+CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACF2823956D00627A31 /* UIImage+CustomExtensions.swift */; };
+		AE207A7D28520881005CB3E9 /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD52823956E00627A31 /* UIImage+RawBytes.swift */; };
+		AE207A7E28520881005CB3E9 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD92823956E00627A31 /* UIImage+CVPixelBuffer.swift */; };
+		AE207A7F28520881005CB3E9 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACB2823956D00627A31 /* MLMultiArray+Image.swift */; };
+		AE207A8028520881005CB3E9 /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACD2823956D00627A31 /* CGImage+RawBytes.swift */; };
+		AE207A8128520881005CB3E9 /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD32823956E00627A31 /* CGImagePropertyOrientation.swift */; };
+		AE207A8228520881005CB3E9 /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD22823956E00627A31 /* GradientPoint.swift */; };
+		AE207A8328520881005CB3E9 /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACA2823956D00627A31 /* MLMultiArray+Helpers.swift */; };
+		AE207A8428520881005CB3E9 /* CoreML+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AC92823956D00627A31 /* CoreML+Combine.swift */; };
+		AE207A8528520881005CB3E9 /* CVPixelBuffer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD72823956E00627A31 /* CVPixelBuffer+Create.swift */; };
+		AE207A8628520881005CB3E9 /* AvCaptureOrientation+ETS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E62819359C00BADAC2 /* AvCaptureOrientation+ETS.swift */; };
+		AE207A8728520881005CB3E9 /* CVPixelBuffer+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD62823956E00627A31 /* CVPixelBuffer+Resize.swift */; };
+		AE207A8828520881005CB3E9 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AFF2823957700627A31 /* Array+Extensions.swift */; };
+		AE207A8928520881005CB3E9 /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD02823956D00627A31 /* CGImage+CVPixelBuffer.swift */; };
+		AE207A8A28520881005CB3E9 /* MLModel+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD12823956D00627A31 /* MLModel+Images.swift */; };
+		AE207A8B28520881005CB3E9 /* CVPixelBuffer+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD42823956E00627A31 /* CVPixelBuffer+Rotate.swift */; };
+		AE207A8C28520881005CB3E9 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ADA2823956E00627A31 /* Math.swift */; };
+		AE207A8D28520881005CB3E9 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACC2823956D00627A31 /* NonMaxSuppression.swift */; };
+		AE207A8E28520881005CB3E9 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACE2823956D00627A31 /* UIImage+Extensions.swift */; };
+		AE207A8F28520881005CB3E9 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD82823956E00627A31 /* Predictions.swift */; };
+		AE207A9028520881005CB3E9 /* UIImage+CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACF2823956D00627A31 /* UIImage+CustomExtensions.swift */; };
+		AE207A9128520881005CB3E9 /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD52823956E00627A31 /* UIImage+RawBytes.swift */; };
+		AE207A9228520881005CB3E9 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD92823956E00627A31 /* UIImage+CVPixelBuffer.swift */; };
+		AE207A9328520881005CB3E9 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACB2823956D00627A31 /* MLMultiArray+Image.swift */; };
+		AE207A9428520881005CB3E9 /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACD2823956D00627A31 /* CGImage+RawBytes.swift */; };
+		AE207A9528520881005CB3E9 /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD32823956E00627A31 /* CGImagePropertyOrientation.swift */; };
+		AE207A9628520881005CB3E9 /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD22823956E00627A31 /* GradientPoint.swift */; };
+		AE207A9728520881005CB3E9 /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3ACA2823956D00627A31 /* MLMultiArray+Helpers.swift */; };
+		AE207A9828520881005CB3E9 /* CoreML+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AC92823956D00627A31 /* CoreML+Combine.swift */; };
+		AE207A9928520881005CB3E9 /* CVPixelBuffer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD72823956E00627A31 /* CVPixelBuffer+Create.swift */; };
+		AE207A9A28520881005CB3E9 /* AvCaptureOrientation+ETS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E62819359C00BADAC2 /* AvCaptureOrientation+ETS.swift */; };
+		AE207A9B28520881005CB3E9 /* CVPixelBuffer+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD62823956E00627A31 /* CVPixelBuffer+Resize.swift */; };
+		AE207A9C28520881005CB3E9 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AFF2823957700627A31 /* Array+Extensions.swift */; };
+		AE207A9D28520881005CB3E9 /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD02823956D00627A31 /* CGImage+CVPixelBuffer.swift */; };
+		AE207A9E28520881005CB3E9 /* MLModel+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD12823956D00627A31 /* MLModel+Images.swift */; };
+		AE207A9F28520881005CB3E9 /* CVPixelBuffer+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A3AD42823956E00627A31 /* CVPixelBuffer+Rotate.swift */; };
+		AE207AA028520887005CB3E9 /* BanubaAdapter+processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CB2819266400BADAC2 /* BanubaAdapter+processing.swift */; };
+		AE207AA128520887005CB3E9 /* BanubaAdapter+effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CF2819266400BADAC2 /* BanubaAdapter+effects.swift */; };
+		AE207AA228520887005CB3E9 /* BanubaClientToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339D02819266400BADAC2 /* BanubaClientToken.swift */; };
+		AE207AA328520887005CB3E9 /* BanubaAdapter+JSModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CA2819266400BADAC2 /* BanubaAdapter+JSModule.swift */; };
+		AE207AA428520887005CB3E9 /* BanubaAdapter+WebRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CC2819266400BADAC2 /* BanubaAdapter+WebRTC.swift */; };
+		AE207AA628520887005CB3E9 /* BanubaAdapter+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339C92819266400BADAC2 /* BanubaAdapter+Camera.swift */; };
+		AE207AA828520887005CB3E9 /* BanubaAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CE2819266400BADAC2 /* BanubaAdapter.swift */; };
+		AE207AB228520889005CB3E9 /* BanubaAdapter+processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CB2819266400BADAC2 /* BanubaAdapter+processing.swift */; };
+		AE207AB328520889005CB3E9 /* BanubaAdapter+effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CF2819266400BADAC2 /* BanubaAdapter+effects.swift */; };
+		AE207AB428520889005CB3E9 /* BanubaClientToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339D02819266400BADAC2 /* BanubaClientToken.swift */; };
+		AE207AB528520889005CB3E9 /* BanubaAdapter+JSModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CA2819266400BADAC2 /* BanubaAdapter+JSModule.swift */; };
+		AE207AB628520889005CB3E9 /* BanubaAdapter+WebRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CC2819266400BADAC2 /* BanubaAdapter+WebRTC.swift */; };
+		AE207AB828520889005CB3E9 /* BanubaAdapter+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339C92819266400BADAC2 /* BanubaAdapter+Camera.swift */; };
+		AE207ABA28520889005CB3E9 /* BanubaAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CE2819266400BADAC2 /* BanubaAdapter.swift */; };
+		AE207ABB285208C1005CB3E9 /* VirtaulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E02819272000BADAC2 /* VirtaulBackground.swift */; };
+		AE207ABD285208C2005CB3E9 /* VirtaulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E02819272000BADAC2 /* VirtaulBackground.swift */; };
+		AE207ABE285208C4005CB3E9 /* VirtualBackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E32819274200BADAC2 /* VirtualBackgroundManager.m */; };
+		AE207AC0285208C6005CB3E9 /* VirtualBackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E32819274200BADAC2 /* VirtualBackgroundManager.m */; };
+		AE5339EE28195E1500BADAC2 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = AE5339ED28195E1500BADAC2 /* effects */; };
+		AE5339EF28195E1500BADAC2 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = AE5339ED28195E1500BADAC2 /* effects */; };
+		AE7720302855C31F006CB42A /* VirtaulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E02819272000BADAC2 /* VirtaulBackground.swift */; };
+		AE7720312855C322006CB42A /* VirtualBackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5339E32819274200BADAC2 /* VirtualBackgroundManager.m */; };
+		AE7720322855C326006CB42A /* BanubaAdapter+WebRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CC2819266400BADAC2 /* BanubaAdapter+WebRTC.swift */; };
+		AE7720332855C326006CB42A /* BanubaAdapter+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339C92819266400BADAC2 /* BanubaAdapter+Camera.swift */; };
+		AE7720352855C326006CB42A /* BanubaAdapter+effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CF2819266400BADAC2 /* BanubaAdapter+effects.swift */; };
+		AE7720362855C326006CB42A /* BanubaClientToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339D02819266400BADAC2 /* BanubaClientToken.swift */; };
+		AE7720372855C326006CB42A /* BanubaAdapter+JSModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CA2819266400BADAC2 /* BanubaAdapter+JSModule.swift */; };
+		AE7720382855C326006CB42A /* BanubaAdapter+processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CB2819266400BADAC2 /* BanubaAdapter+processing.swift */; };
+		AE77203A2855C326006CB42A /* BanubaAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5339CE2819266400BADAC2 /* BanubaAdapter.swift */; };
+		AEDCA3CB282E500D00B9C175 /* ScheenshareEventEmiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A42622282A0E03009D4EF3 /* ScheenshareEventEmiter.m */; };
+		AEDCA3CC282E500E00B9C175 /* ScheenshareEventEmiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A42622282A0E03009D4EF3 /* ScheenshareEventEmiter.m */; };
+		AEDCA3CD282E500F00B9C175 /* ScheenshareEventEmiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A42622282A0E03009D4EF3 /* ScheenshareEventEmiter.m */; };
+		AEDCA3CE282E501200B9C175 /* EventEmiterToJs.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E8B6A6282A785700A888EA /* EventEmiterToJs.m */; };
+		AEDCA3CF282E501300B9C175 /* EventEmiterToJs.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E8B6A6282A785700A888EA /* EventEmiterToJs.m */; };
+		AEDCA3D0282E501400B9C175 /* EventEmiterToJs.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E8B6A6282A785700A888EA /* EventEmiterToJs.m */; };
+		BECF3201283F44C10049E8FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECF3200283F44C10049E8FA /* GoogleService-Info.plist */; };
+		BECF3202283F44C10049E8FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECF3200283F44C10049E8FA /* GoogleService-Info.plist */; };
+		BECF3203283F44C10049E8FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECF3200283F44C10049E8FA /* GoogleService-Info.plist */; };
+		E3C5FE97C847450D85120D1B /* NotoSansSC-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74362997B7674A7183F4323A /* NotoSansSC-Light.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6E361D28253ADB000D569D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6E360D28253AB2000D569D;
+			remoteInfo = "Broadcast Extension-beta";
+		};
+		9B6FE0BC27E218D100DB6D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6FE0A227E1D28900DB6D14;
+			remoteInfo = "Broadcast Extension-inhouse";
+		};
+		A94E272827AB920300DB3C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94E272027AB920300DB3C47;
+			remoteInfo = "Broadcast Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B6E3604282539BE000D569D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B6E361C28253ADB000D569D /* Broadcast Extension-beta.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9B6FE0B927E20A9200DB6D14 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B6FE0B627E20A9100DB6D14 /* Broadcast Extension-inhouse.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E272E27AB920300DB3C47 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A94E272A27AB920300DB3C47 /* Broadcast Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05B7408776B5407BBDF4D0DB /* NotoSansSC-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansSC-Thin.otf"; path = "../assets/fonts/NotoSansSC-Thin.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* VROOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VROOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VROOM/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VROOM/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VROOM/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VROOM/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VROOM/main.m; sourceTree = "<group>"; };
+		1DD68AF8CCCB483F9B9DD4ED /* NotoSansSC-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansSC-Regular.otf"; path = "../assets/fonts/NotoSansSC-Regular.otf"; sourceTree = "<group>"; };
+		207ECEBB313943189A02AF61 /* NotoSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Black.ttf"; path = "../assets/fonts/NotoSans-Black.ttf"; sourceTree = "<group>"; };
+		2952F171AB237888BB5F9E65 /* Pods-ALL-VROOM-beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-VROOM-beta.release.xcconfig"; path = "Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta.release.xcconfig"; sourceTree = "<group>"; };
+		317CAE339C662010C4770389 /* libPods-ALL-VROOM-beta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALL-VROOM-beta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416EF714B6614969B5F19284 /* NotoSansThai-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansThai-Thin.ttf"; path = "../assets/fonts/NotoSansThai-Thin.ttf"; sourceTree = "<group>"; };
+		4A1465C5293842339D1B70E8 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Medium.ttf"; path = "../assets/fonts/NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		52F8294B86924846AC387885 /* NotoSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Light.ttf"; path = "../assets/fonts/NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		6323C4BEC3A89A64319F784B /* Pods-ALL-VROOM-beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-VROOM-beta.debug.xcconfig"; path = "Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta.debug.xcconfig"; sourceTree = "<group>"; };
+		74362997B7674A7183F4323A /* NotoSansSC-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansSC-Light.otf"; path = "../assets/fonts/NotoSansSC-Light.otf"; sourceTree = "<group>"; };
+		7FA3C3A5BAA24044A2C5FCD8 /* NotoSansSC-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansSC-Black.otf"; path = "../assets/fonts/NotoSansSC-Black.otf"; sourceTree = "<group>"; };
+		814FA45DF74B481A8A228BC9 /* NotoSansThai-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansThai-Light.ttf"; path = "../assets/fonts/NotoSansThai-Light.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VROOM/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89EB1DF03BA142D5A6CE5A69 /* NotoSansThai-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansThai-Black.ttf"; path = "../assets/fonts/NotoSansThai-Black.ttf"; sourceTree = "<group>"; };
+		8E574D90F187C695CEC2166B /* Pods-ALL-VROOM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-VROOM.release.xcconfig"; path = "Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM.release.xcconfig"; sourceTree = "<group>"; };
+		9B26A020282639890083935C /* Broadcast Extension-beta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Broadcast Extension-beta.entitlements"; sourceTree = "<group>"; };
+		9B514E7527E460AC00C56CCD /* libreact-native-webrtc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webrtc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B68262027DF7DEC00F0BEED /* libreact-native-webrtc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webrtc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6E360B282539BE000D569D /* VROOM-beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VROOM-beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6E361A28253AB2000D569D /* Broadcast Extension-beta.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Broadcast Extension-beta.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6E362028253CEB000D569D /* VROOM-beta-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VROOM-beta-Info.plist"; path = "VROOM/VROOM-beta-Info.plist"; sourceTree = "<group>"; };
+		9B6E362228253D4B000D569D /* Broadcast Extension-beta-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Broadcast Extension-beta-Info.plist"; sourceTree = "<group>"; };
+		9B6FE0A027E1CF7B00DB6D14 /* VROOM-inhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VROOM-inhouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6FE0A127E1CF7B00DB6D14 /* VROOM-inhouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VROOM-inhouse-Info.plist"; path = "VROOM/VROOM-inhouse-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9B6FE0AF27E1D28900DB6D14 /* Broadcast Extension-inhouse.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Broadcast Extension-inhouse.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6FE0B027E1D28900DB6D14 /* Broadcast Extension-inhouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Broadcast Extension-inhouse-Info.plist"; path = "Broadcast Extension/Broadcast Extension-inhouse-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9B6FE0BE27E2209000DB6D14 /* Broadcast-inhouse.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Broadcast-inhouse.entitlements"; sourceTree = "<group>"; };
+		9B6FE0BF27E220B000DB6D14 /* VROOM-inhouse.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "VROOM-inhouse.entitlements"; path = "VROOM/VROOM-inhouse.entitlements"; sourceTree = "<group>"; };
+		9BD4386C27E6424700158EC9 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		9BEB196827E3022A00337331 /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = "../node_modules/react-native-webrtc/apple/WebRTC.xcframework"; sourceTree = "<group>"; };
+		9BEB196C27E3115900337331 /* libreact-native-webrtc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webrtc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013AB7B2903448B820BDCF1 /* NotoSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Thin.ttf"; path = "../assets/fonts/NotoSans-Thin.ttf"; sourceTree = "<group>"; };
+		A7882F92849541D38B65AC02 /* NotoSansThai-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansThai-Bold.ttf"; path = "../assets/fonts/NotoSansThai-Bold.ttf"; sourceTree = "<group>"; };
+		A94E271C27AB878D00DB3C47 /* VROOM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = VROOM.entitlements; path = VROOM/VROOM.entitlements; sourceTree = "<group>"; };
+		A94E272127AB920300DB3C47 /* Broadcast Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Broadcast Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94E272227AB920300DB3C47 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		A94E272527AB920300DB3C47 /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		A94E272727AB920300DB3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94E272F27ABA7D300DB3C47 /* SocketConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketConnection.swift; sourceTree = "<group>"; };
+		A94E273127ABAB7800DB3C47 /* DarwinNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarwinNotificationCenter.swift; sourceTree = "<group>"; };
+		A94E273327ABAC3D00DB3C47 /* SampleUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUploader.swift; sourceTree = "<group>"; };
+		A94E273627ABAC7B00DB3C47 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		A99A6BC127ABD8B300B8B81A /* Broadcast Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Broadcast Extension.entitlements"; sourceTree = "<group>"; };
+		A9A42621282A0DCC009D4EF3 /* ScheenshareEventEmiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheenshareEventEmiter.h; path = VROOM/ScheenshareEventEmiter.h; sourceTree = "<group>"; };
+		A9A42622282A0E03009D4EF3 /* ScheenshareEventEmiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheenshareEventEmiter.m; path = VROOM/ScheenshareEventEmiter.m; sourceTree = "<group>"; };
+		A9E8B6A5282A783800A888EA /* EventEmiterToJs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EventEmiterToJs.h; path = VROOM/EventEmiterToJs.h; sourceTree = "<group>"; };
+		A9E8B6A6282A785700A888EA /* EventEmiterToJs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EventEmiterToJs.m; path = VROOM/EventEmiterToJs.m; sourceTree = "<group>"; };
+		AADCEA75F495E2885DE4C0F9 /* Pods-ALL-VROOM-inhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-VROOM-inhouse.release.xcconfig"; path = "Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse.release.xcconfig"; sourceTree = "<group>"; };
+		AE00E45727CF4E02002A96F2 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		AE4A3AC92823956D00627A31 /* CoreML+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreML+Combine.swift"; sourceTree = "<group>"; };
+		AE4A3ACA2823956D00627A31 /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		AE4A3ACB2823956D00627A31 /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		AE4A3ACC2823956D00627A31 /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		AE4A3ACD2823956D00627A31 /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		AE4A3ACE2823956D00627A31 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		AE4A3ACF2823956D00627A31 /* UIImage+CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CustomExtensions.swift"; sourceTree = "<group>"; };
+		AE4A3AD02823956D00627A31 /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		AE4A3AD12823956D00627A31 /* MLModel+Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLModel+Images.swift"; sourceTree = "<group>"; };
+		AE4A3AD22823956E00627A31 /* GradientPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientPoint.swift; sourceTree = "<group>"; };
+		AE4A3AD32823956E00627A31 /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		AE4A3AD42823956E00627A31 /* CVPixelBuffer+Rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Rotate.swift"; sourceTree = "<group>"; };
+		AE4A3AD52823956E00627A31 /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		AE4A3AD62823956E00627A31 /* CVPixelBuffer+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Resize.swift"; sourceTree = "<group>"; };
+		AE4A3AD72823956E00627A31 /* CVPixelBuffer+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Create.swift"; sourceTree = "<group>"; };
+		AE4A3AD82823956E00627A31 /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		AE4A3AD92823956E00627A31 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		AE4A3ADA2823956E00627A31 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		AE4A3AFF2823957700627A31 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		AE4A3B042823962300627A31 /* DeepLabV3Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3Int8LUT.mlmodel; sourceTree = "<group>"; };
+		AE4A3B082823B78A00627A31 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		AE4A3B0B2823B79F00627A31 /* MetalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalHelper.swift; sourceTree = "<group>"; };
+		AE4A3B0E2823B7C100627A31 /* MetalConstanst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalConstanst.swift; sourceTree = "<group>"; };
+		AE4A3B112823B94400627A31 /* BanubaAdapter+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BanubaAdapter+Model.swift"; sourceTree = "<group>"; };
+		AE5339C92819266400BADAC2 /* BanubaAdapter+Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanubaAdapter+Camera.swift"; sourceTree = "<group>"; };
+		AE5339CA2819266400BADAC2 /* BanubaAdapter+JSModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanubaAdapter+JSModule.swift"; sourceTree = "<group>"; };
+		AE5339CB2819266400BADAC2 /* BanubaAdapter+processing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanubaAdapter+processing.swift"; sourceTree = "<group>"; };
+		AE5339CC2819266400BADAC2 /* BanubaAdapter+WebRTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanubaAdapter+WebRTC.swift"; sourceTree = "<group>"; };
+		AE5339CE2819266400BADAC2 /* BanubaAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanubaAdapter.swift; sourceTree = "<group>"; };
+		AE5339CF2819266400BADAC2 /* BanubaAdapter+effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BanubaAdapter+effects.swift"; sourceTree = "<group>"; };
+		AE5339D02819266400BADAC2 /* BanubaClientToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanubaClientToken.swift; sourceTree = "<group>"; };
+		AE5339E02819272000BADAC2 /* VirtaulBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtaulBackground.swift; sourceTree = "<group>"; };
+		AE5339E32819274200BADAC2 /* VirtualBackgroundManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualBackgroundManager.m; sourceTree = "<group>"; };
+		AE5339E428192C0800BADAC2 /* VROOM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VROOM-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE5339E62819359C00BADAC2 /* AvCaptureOrientation+ETS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AvCaptureOrientation+ETS.swift"; sourceTree = "<group>"; };
+		AE5339ED28195E1500BADAC2 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effects; sourceTree = "<group>"; };
+		AEAA40072833FDD3007A1539 /* Banuba+Metal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Banuba+Metal.swift"; sourceTree = "<group>"; };
+		AEE48A10282D4D3400D00694 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		B70D8BBCD6771E8E2B552B7D /* Pods-ALL-VROOM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-VROOM.debug.xcconfig"; path = "Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM.debug.xcconfig"; sourceTree = "<group>"; };
+		BECF3200283F44C10049E8FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "VROOM/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8865CB5A09F41FB941B129C /* NotoSansThai-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansThai-Regular.ttf"; path = "../assets/fonts/NotoSansThai-Regular.ttf"; sourceTree = "<group>"; };
+		C9ECA8A4C43133F1CF77EEAE /* libPods-ALL-VROOM-inhouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALL-VROOM-inhouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CE9B5B50104668A6DD13E1 /* NotoSansThai-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansThai-Medium.ttf"; path = "../assets/fonts/NotoSansThai-Medium.ttf"; sourceTree = "<group>"; };
+		DFD60C7C2A494971B45C758F /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Regular.ttf"; path = "../assets/fonts/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		E71931C32325D9F3B629ABCE /* Pods-ALL-VROOM-inhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-VROOM-inhouse.debug.xcconfig"; path = "Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2021F550F237B904785D424 /* libPods-ALL-VROOM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALL-VROOM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7232628B4084CAA80FB7E9A /* NotoSansSC-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansSC-Medium.otf"; path = "../assets/fonts/NotoSansSC-Medium.otf"; sourceTree = "<group>"; };
+		F7B2C572B49144269907C2B5 /* NotoSansSC-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansSC-Bold.otf"; path = "../assets/fonts/NotoSansSC-Bold.otf"; sourceTree = "<group>"; };
+		FFF8B9E7303C4E7ABA3BFA98 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Bold.ttf"; path = "../assets/fonts/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404816120125307A6A1DC2D9 /* libPods-ALL-VROOM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EEEC4313807FCAB0176197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984D1CCDBB694DB254FA17CD /* libPods-ALL-VROOM-beta.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986DA91DAF372792C9EFDBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6FE08027E1CF7B00DB6D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F10B9439A7E3119A574DF /* libPods-ALL-VROOM-inhouse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6FE0A927E1D28900DB6D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6FE0AA27E1D28900DB6D14 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E271E27AB920300DB3C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94E272327AB920300DB3C47 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* VROOM */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A3B072823B76400627A31 /* metal */,
+				AE4A3B032823962300627A31 /* model */,
+				AE5339E52819353600BADAC2 /* helper */,
+				AE5339C82819266400BADAC2 /* banuba */,
+				BECF3200283F44C10049E8FA /* GoogleService-Info.plist */,
+				9B6FE0BF27E220B000DB6D14 /* VROOM-inhouse.entitlements */,
+				A94E271C27AB878D00DB3C47 /* VROOM.entitlements */,
+				A9E8B6A5282A783800A888EA /* EventEmiterToJs.h */,
+				A9E8B6A6282A785700A888EA /* EventEmiterToJs.m */,
+				A9A42621282A0DCC009D4EF3 /* ScheenshareEventEmiter.h */,
+				A9A42622282A0E03009D4EF3 /* ScheenshareEventEmiter.m */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				9B6FE0A127E1CF7B00DB6D14 /* VROOM-inhouse-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				AE00E45727CF4E02002A96F2 /* Config.xcconfig */,
+				AE5339E428192C0800BADAC2 /* VROOM-Bridging-Header.h */,
+				AE5339E02819272000BADAC2 /* VirtaulBackground.swift */,
+				AE5339E32819274200BADAC2 /* VirtualBackgroundManager.m */,
+			);
+			name = VROOM;
+			sourceTree = "<group>";
+		};
+		22F7A5946BC8864A805EDEEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B70D8BBCD6771E8E2B552B7D /* Pods-ALL-VROOM.debug.xcconfig */,
+				8E574D90F187C695CEC2166B /* Pods-ALL-VROOM.release.xcconfig */,
+				6323C4BEC3A89A64319F784B /* Pods-ALL-VROOM-beta.debug.xcconfig */,
+				2952F171AB237888BB5F9E65 /* Pods-ALL-VROOM-beta.release.xcconfig */,
+				E71931C32325D9F3B629ABCE /* Pods-ALL-VROOM-inhouse.debug.xcconfig */,
+				AADCEA75F495E2885DE4C0F9 /* Pods-ALL-VROOM-inhouse.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B514E7527E460AC00C56CCD /* libreact-native-webrtc.a */,
+				9BEB196C27E3115900337331 /* libreact-native-webrtc.a */,
+				9BEB196827E3022A00337331 /* WebRTC.xcframework */,
+				9B68262027DF7DEC00F0BEED /* libreact-native-webrtc.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				A94E272227AB920300DB3C47 /* ReplayKit.framework */,
+				F2021F550F237B904785D424 /* libPods-ALL-VROOM.a */,
+				317CAE339C662010C4770389 /* libPods-ALL-VROOM-beta.a */,
+				C9ECA8A4C43133F1CF77EEAE /* libPods-ALL-VROOM-inhouse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83608EB9CA5444B9AF872D18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFD60C7C2A494971B45C758F /* NotoSans-Regular.ttf */,
+				C8865CB5A09F41FB941B129C /* NotoSansThai-Regular.ttf */,
+				FFF8B9E7303C4E7ABA3BFA98 /* NotoSans-Bold.ttf */,
+				89EB1DF03BA142D5A6CE5A69 /* NotoSansThai-Black.ttf */,
+				A7882F92849541D38B65AC02 /* NotoSansThai-Bold.ttf */,
+				814FA45DF74B481A8A228BC9 /* NotoSansThai-Light.ttf */,
+				D2CE9B5B50104668A6DD13E1 /* NotoSansThai-Medium.ttf */,
+				416EF714B6614969B5F19284 /* NotoSansThai-Thin.ttf */,
+				207ECEBB313943189A02AF61 /* NotoSans-Black.ttf */,
+				52F8294B86924846AC387885 /* NotoSans-Light.ttf */,
+				4A1465C5293842339D1B70E8 /* NotoSans-Medium.ttf */,
+				A013AB7B2903448B820BDCF1 /* NotoSans-Thin.ttf */,
+				7FA3C3A5BAA24044A2C5FCD8 /* NotoSansSC-Black.otf */,
+				F7B2C572B49144269907C2B5 /* NotoSansSC-Bold.otf */,
+				74362997B7674A7183F4323A /* NotoSansSC-Light.otf */,
+				F7232628B4084CAA80FB7E9A /* NotoSansSC-Medium.otf */,
+				1DD68AF8CCCB483F9B9DD4ED /* NotoSansSC-Regular.otf */,
+				05B7408776B5407BBDF4D0DB /* NotoSansSC-Thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				AE5339ED28195E1500BADAC2 /* effects */,
+				9BD4386C27E6424700158EC9 /* AppCenter-Config.plist */,
+				13B07FAE1A68108700A75B9A /* VROOM */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				A94E272427AB920300DB3C47 /* Broadcast Extension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				22F7A5946BC8864A805EDEEA /* Pods */,
+				83608EB9CA5444B9AF872D18 /* Resources */,
+				9B6FE0C327E2243700DB6D14 /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* VROOM.app */,
+				A94E272127AB920300DB3C47 /* Broadcast Extension.appex */,
+				9B6FE0A027E1CF7B00DB6D14 /* VROOM-inhouse.app */,
+				9B6FE0AF27E1D28900DB6D14 /* Broadcast Extension-inhouse.appex */,
+				9B6E360B282539BE000D569D /* VROOM-beta.app */,
+				9B6E361A28253AB2000D569D /* Broadcast Extension-beta.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6FE0C327E2243700DB6D14 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				9B6E362028253CEB000D569D /* VROOM-beta-Info.plist */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		A94E272427AB920300DB3C47 /* Broadcast Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B6E362228253D4B000D569D /* Broadcast Extension-beta-Info.plist */,
+				9B6FE0BE27E2209000DB6D14 /* Broadcast-inhouse.entitlements */,
+				A99A6BC127ABD8B300B8B81A /* Broadcast Extension.entitlements */,
+				A94E272727AB920300DB3C47 /* Info.plist */,
+				9B6FE0B027E1D28900DB6D14 /* Broadcast Extension-inhouse-Info.plist */,
+				A94E272527AB920300DB3C47 /* SampleHandler.swift */,
+				A94E272F27ABA7D300DB3C47 /* SocketConnection.swift */,
+				A94E273127ABAB7800DB3C47 /* DarwinNotificationCenter.swift */,
+				A94E273327ABAC3D00DB3C47 /* SampleUploader.swift */,
+				A94E273627ABAC7B00DB3C47 /* Atomic.swift */,
+				9B26A020282639890083935C /* Broadcast Extension-beta.entitlements */,
+			);
+			path = "Broadcast Extension";
+			sourceTree = "<group>";
+		};
+		AE4A3B032823962300627A31 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A3B042823962300627A31 /* DeepLabV3Int8LUT.mlmodel */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AE4A3B072823B76400627A31 /* metal */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A3B082823B78A00627A31 /* Shaders.metal */,
+				AE4A3B0B2823B79F00627A31 /* MetalHelper.swift */,
+				AE4A3B0E2823B7C100627A31 /* MetalConstanst.swift */,
+				AEE48A10282D4D3400D00694 /* UIImage+Orientation.swift */,
+			);
+			path = metal;
+			sourceTree = "<group>";
+		};
+		AE5339C82819266400BADAC2 /* banuba */ = {
+			isa = PBXGroup;
+			children = (
+				AE5339CE2819266400BADAC2 /* BanubaAdapter.swift */,
+				AE5339C92819266400BADAC2 /* BanubaAdapter+Camera.swift */,
+				AE5339CA2819266400BADAC2 /* BanubaAdapter+JSModule.swift */,
+				AE5339CB2819266400BADAC2 /* BanubaAdapter+processing.swift */,
+				AE5339CC2819266400BADAC2 /* BanubaAdapter+WebRTC.swift */,
+				AE5339CF2819266400BADAC2 /* BanubaAdapter+effects.swift */,
+				AE4A3B112823B94400627A31 /* BanubaAdapter+Model.swift */,
+				AEAA40072833FDD3007A1539 /* Banuba+Metal.swift */,
+				AE5339D02819266400BADAC2 /* BanubaClientToken.swift */,
+			);
+			path = banuba;
+			sourceTree = "<group>";
+		};
+		AE5339E52819353600BADAC2 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A3AFF2823957700627A31 /* Array+Extensions.swift */,
+				AE4A3AD02823956D00627A31 /* CGImage+CVPixelBuffer.swift */,
+				AE4A3ACD2823956D00627A31 /* CGImage+RawBytes.swift */,
+				AE4A3AD32823956E00627A31 /* CGImagePropertyOrientation.swift */,
+				AE4A3AC92823956D00627A31 /* CoreML+Combine.swift */,
+				AE4A3AD72823956E00627A31 /* CVPixelBuffer+Create.swift */,
+				AE4A3AD62823956E00627A31 /* CVPixelBuffer+Resize.swift */,
+				AE4A3AD42823956E00627A31 /* CVPixelBuffer+Rotate.swift */,
+				AE4A3AD22823956E00627A31 /* GradientPoint.swift */,
+				AE4A3ADA2823956E00627A31 /* Math.swift */,
+				AE4A3AD12823956D00627A31 /* MLModel+Images.swift */,
+				AE4A3ACA2823956D00627A31 /* MLMultiArray+Helpers.swift */,
+				AE4A3ACB2823956D00627A31 /* MLMultiArray+Image.swift */,
+				AE4A3ACC2823956D00627A31 /* NonMaxSuppression.swift */,
+				AE4A3AD82823956E00627A31 /* Predictions.swift */,
+				AE4A3ACF2823956D00627A31 /* UIImage+CustomExtensions.swift */,
+				AE4A3AD92823956E00627A31 /* UIImage+CVPixelBuffer.swift */,
+				AE4A3ACE2823956D00627A31 /* UIImage+Extensions.swift */,
+				AE4A3AD52823956E00627A31 /* UIImage+RawBytes.swift */,
+				AE5339E62819359C00BADAC2 /* AvCaptureOrientation+ETS.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* VROOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VROOM" */;
+			buildPhases = (
+				014ED291572AF3CA65815D05 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				AE00E42827CDF22F002A96F2 /* SplashScreen Version */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A94E272E27AB920300DB3C47 /* Embed App Extensions */,
+				C4974482C2F558C9115E22F1 /* [CP] Embed Pods Frameworks */,
+				AA2F2D5AA4767BB5AC40020E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94E272927AB920300DB3C47 /* PBXTargetDependency */,
+			);
+			name = VROOM;
+			productName = VROOM;
+			productReference = 13B07F961A680F5B00A75B9A /* VROOM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6E35E3282539BE000D569D /* VROOM-beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6E3608282539BE000D569D /* Build configuration list for PBXNativeTarget "VROOM-beta" */;
+			buildPhases = (
+				167AB0C989A42AF659F8B712 /* [CP] Check Pods Manifest.lock */,
+				9B6E35E7282539BE000D569D /* Start Packager */,
+				9B6E35E8282539BE000D569D /* Sources */,
+				9B6E35EB282539BE000D569D /* SplashScreen Version */,
+				9B6E35EE282539BE000D569D /* Resources */,
+				9B6E3603282539BE000D569D /* Bundle React Native code and images */,
+				9B6E3604282539BE000D569D /* Embed App Extensions */,
+				27EEEC4313807FCAB0176197 /* Frameworks */,
+				913D4153754F9B3493CE3814 /* [CP] Embed Pods Frameworks */,
+				1B095043A5D336B1898B2996 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6E361E28253ADB000D569D /* PBXTargetDependency */,
+			);
+			name = "VROOM-beta";
+			productName = VROOM;
+			productReference = 9B6E360B282539BE000D569D /* VROOM-beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6E360D28253AB2000D569D /* Broadcast Extension-beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6E361728253AB2000D569D /* Build configuration list for PBXNativeTarget "Broadcast Extension-beta" */;
+			buildPhases = (
+				9B6E360E28253AB2000D569D /* Sources */,
+				9B6E361628253AB2000D569D /* Resources */,
+				986DA91DAF372792C9EFDBB5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Broadcast Extension-beta";
+			productName = "Broadcast Extension";
+			productReference = 9B6E361A28253AB2000D569D /* Broadcast Extension-beta.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9B6FE07727E1CF7B00DB6D14 /* VROOM-inhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6FE09D27E1CF7B00DB6D14 /* Build configuration list for PBXNativeTarget "VROOM-inhouse" */;
+			buildPhases = (
+				56260A49718AFCA2FB30E977 /* [CP] Check Pods Manifest.lock */,
+				9B6FE07B27E1CF7B00DB6D14 /* Start Packager */,
+				9B6FE07C27E1CF7B00DB6D14 /* Sources */,
+				9B6FE07F27E1CF7B00DB6D14 /* SplashScreen Version */,
+				9B6FE08027E1CF7B00DB6D14 /* Frameworks */,
+				9B6FE08227E1CF7B00DB6D14 /* Resources */,
+				9B6FE09727E1CF7B00DB6D14 /* Bundle React Native code and images */,
+				9B6FE0B927E20A9200DB6D14 /* Embed App Extensions */,
+				74171DA034BF82DF30FACF91 /* [CP] Embed Pods Frameworks */,
+				23C7BBB3D9D80BA6CC9989B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6FE0BD27E218D100DB6D14 /* PBXTargetDependency */,
+			);
+			name = "VROOM-inhouse";
+			productName = VROOM;
+			productReference = 9B6FE0A027E1CF7B00DB6D14 /* VROOM-inhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6FE0A227E1D28900DB6D14 /* Broadcast Extension-inhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6FE0AC27E1D28900DB6D14 /* Build configuration list for PBXNativeTarget "Broadcast Extension-inhouse" */;
+			buildPhases = (
+				9B6FE0A327E1D28900DB6D14 /* Sources */,
+				9B6FE0A927E1D28900DB6D14 /* Frameworks */,
+				9B6FE0AB27E1D28900DB6D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Broadcast Extension-inhouse";
+			productName = "Broadcast Extension";
+			productReference = 9B6FE0AF27E1D28900DB6D14 /* Broadcast Extension-inhouse.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A94E272027AB920300DB3C47 /* Broadcast Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94E272B27AB920300DB3C47 /* Build configuration list for PBXNativeTarget "Broadcast Extension" */;
+			buildPhases = (
+				A94E271D27AB920300DB3C47 /* Sources */,
+				A94E271E27AB920300DB3C47 /* Frameworks */,
+				A94E271F27AB920300DB3C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Broadcast Extension";
+			productName = "Broadcast Extension";
+			productReference = A94E272127AB920300DB3C47 /* Broadcast Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1320;
+					};
+					A94E272027AB920300DB3C47 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VROOM" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* VROOM */,
+				A94E272027AB920300DB3C47 /* Broadcast Extension */,
+				9B6FE07727E1CF7B00DB6D14 /* VROOM-inhouse */,
+				9B6FE0A227E1D28900DB6D14 /* Broadcast Extension-inhouse */,
+				9B6E35E3282539BE000D569D /* VROOM-beta */,
+				9B6E360D28253AB2000D569D /* Broadcast Extension-beta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1F54EDD97E564AB195FAC44C /* NotoSans-Regular.ttf in Resources */,
+				A215136694734C6B80F03BC8 /* NotoSansThai-Regular.ttf in Resources */,
+				29C944A7EA9540EB93AFE5CD /* NotoSans-Bold.ttf in Resources */,
+				316775BC9E5044329D8CEEF6 /* NotoSansThai-Black.ttf in Resources */,
+				38E642175D5748E49521B2BE /* NotoSansThai-Bold.ttf in Resources */,
+				8EF570F901F441A49C6C5FCD /* NotoSansThai-Light.ttf in Resources */,
+				4F9A374D60CF4268A0FCE3A9 /* NotoSansThai-Medium.ttf in Resources */,
+				72C48143C8E544D682939887 /* NotoSansThai-Thin.ttf in Resources */,
+				426F427801544FE397F6299F /* NotoSans-Black.ttf in Resources */,
+				406A0F06F39A4992B7BC5F45 /* NotoSans-Light.ttf in Resources */,
+				304A0E938C0D4B7DB5716C1B /* NotoSans-Medium.ttf in Resources */,
+				18DA3433A7E94F299476C41B /* NotoSans-Thin.ttf in Resources */,
+				1948A516D0864A10ADE241D6 /* NotoSansSC-Black.otf in Resources */,
+				AE5339EE28195E1500BADAC2 /* effects in Resources */,
+				13E8CB3F80344CBA9190A593 /* NotoSansSC-Bold.otf in Resources */,
+				E3C5FE97C847450D85120D1B /* NotoSansSC-Light.otf in Resources */,
+				9BF30EDC20584A95B271E9DE /* NotoSansSC-Medium.otf in Resources */,
+				9B6E362128253CEB000D569D /* VROOM-beta-Info.plist in Resources */,
+				BECF3201283F44C10049E8FA /* GoogleService-Info.plist in Resources */,
+				29A13929FEE3457183D0DD7D /* NotoSansSC-Regular.otf in Resources */,
+				08A017D5A3C24F30B998D141 /* NotoSansSC-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6E35EE282539BE000D569D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6E35EF282539BE000D569D /* LaunchScreen.storyboard in Resources */,
+				9B6E35F0282539BE000D569D /* Images.xcassets in Resources */,
+				9B6E35F1282539BE000D569D /* NotoSans-Regular.ttf in Resources */,
+				9B6E35F2282539BE000D569D /* NotoSansThai-Regular.ttf in Resources */,
+				9B6E35F3282539BE000D569D /* NotoSans-Bold.ttf in Resources */,
+				9B6E35F4282539BE000D569D /* NotoSansThai-Black.ttf in Resources */,
+				9B6E35F5282539BE000D569D /* NotoSansThai-Bold.ttf in Resources */,
+				9B6E35F6282539BE000D569D /* NotoSansThai-Light.ttf in Resources */,
+				9B6E35F7282539BE000D569D /* NotoSansThai-Medium.ttf in Resources */,
+				9B6E35F8282539BE000D569D /* NotoSansThai-Thin.ttf in Resources */,
+				9B6E35F9282539BE000D569D /* NotoSans-Black.ttf in Resources */,
+				9B6E35FA282539BE000D569D /* NotoSans-Light.ttf in Resources */,
+				9B6E35FB282539BE000D569D /* NotoSans-Medium.ttf in Resources */,
+				9B6E35FC282539BE000D569D /* NotoSans-Thin.ttf in Resources */,
+				9B6E35FD282539BE000D569D /* NotoSansSC-Black.otf in Resources */,
+				9B4EECE32851A8D200DCDF6C /* AppCenter-Config.plist in Resources */,
+				9B6E35FE282539BE000D569D /* NotoSansSC-Bold.otf in Resources */,
+				9B6E35FF282539BE000D569D /* NotoSansSC-Light.otf in Resources */,
+				9B6E3600282539BE000D569D /* NotoSansSC-Medium.otf in Resources */,
+				9B6E3601282539BE000D569D /* NotoSansSC-Regular.otf in Resources */,
+				9B6E3602282539BE000D569D /* NotoSansSC-Thin.otf in Resources */,
+				BECF3203283F44C10049E8FA /* GoogleService-Info.plist in Resources */,
+				9B4EECC02851A86700DCDF6C /* effects in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6E361628253AB2000D569D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6FE08227E1CF7B00DB6D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6FE08327E1CF7B00DB6D14 /* LaunchScreen.storyboard in Resources */,
+				9B6FE08427E1CF7B00DB6D14 /* Images.xcassets in Resources */,
+				9B6FE08527E1CF7B00DB6D14 /* NotoSans-Regular.ttf in Resources */,
+				9B6FE08627E1CF7B00DB6D14 /* NotoSansThai-Regular.ttf in Resources */,
+				9B6FE08727E1CF7B00DB6D14 /* NotoSans-Bold.ttf in Resources */,
+				9B6FE08827E1CF7B00DB6D14 /* NotoSansThai-Black.ttf in Resources */,
+				9B6FE08927E1CF7B00DB6D14 /* NotoSansThai-Bold.ttf in Resources */,
+				AE5339EF28195E1500BADAC2 /* effects in Resources */,
+				9B6FE08C27E1CF7B00DB6D14 /* NotoSansThai-Light.ttf in Resources */,
+				9B6FE08D27E1CF7B00DB6D14 /* NotoSansThai-Medium.ttf in Resources */,
+				BECF3202283F44C10049E8FA /* GoogleService-Info.plist in Resources */,
+				9B6FE08F27E1CF7B00DB6D14 /* NotoSansThai-Thin.ttf in Resources */,
+				9B6FE09027E1CF7B00DB6D14 /* NotoSans-Black.ttf in Resources */,
+				9BF10AB527E6D2A20092E3FE /* AppCenter-Config.plist in Resources */,
+				9B6FE09327E1CF7B00DB6D14 /* NotoSans-Light.ttf in Resources */,
+				9B6FE09427E1CF7B00DB6D14 /* NotoSans-Medium.ttf in Resources */,
+				9B6FE09627E1CF7B00DB6D14 /* NotoSans-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6FE0AB27E1D28900DB6D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E271F27AB920300DB3C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6E362328253D4B000D569D /* Broadcast Extension-beta-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		014ED291572AF3CA65815D05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALL-VROOM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167AB0C989A42AF659F8B712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALL-VROOM-beta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B095043A5D336B1898B2996 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23C7BBB3D9D80BA6CC9989B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56260A49718AFCA2FB30E977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALL-VROOM-inhouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74171DA034BF82DF30FACF91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-inhouse/Pods-ALL-VROOM-inhouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913D4153754F9B3493CE3814 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM-beta/Pods-ALL-VROOM-beta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6E35E7282539BE000D569D /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6E35EB282539BE000D569D /* SplashScreen Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SplashScreen Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#   ON/OFF Script Toggle (script ON with #, script OFF without #)\n#exit 0\n\n#   App vesion / Build version constants\nsourceFilePath=\"$PROJECT_DIR/VROOM/LaunchScreen.storyboard\"\nversionNumber=\"$MARKETING_VERSION\"\nbuildNumber=\"$CURRENT_PROJECT_VERSION\"\n\n#   Output version & build numbers into a label on LaunchScreen.storyboard\nsed -i .bak -e \"/userLabel=\\\"APP_VERSION\\\"/s/text=\\\"[^\\\"]*\\\"/text=\\\"Version $versionNumber\\\"/\" \"$sourceFilePath\"\n";
+		};
+		9B6E3603282539BE000D569D /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		9B6FE07B27E1CF7B00DB6D14 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6FE07F27E1CF7B00DB6D14 /* SplashScreen Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SplashScreen Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#   ON/OFF Script Toggle (script ON with #, script OFF without #)\n#exit 0\n\n#   App vesion / Build version constants\nsourceFilePath=\"$PROJECT_DIR/VROOM/LaunchScreen.storyboard\"\nversionNumber=\"$MARKETING_VERSION\"\nbuildNumber=\"$CURRENT_PROJECT_VERSION\"\n\n#   Output version & build numbers into a label on LaunchScreen.storyboard\nsed -i .bak -e \"/userLabel=\\\"APP_VERSION\\\"/s/text=\\\"[^\\\"]*\\\"/text=\\\"Version $versionNumber\\\"/\" \"$sourceFilePath\"\n";
+		};
+		9B6FE09727E1CF7B00DB6D14 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		AA2F2D5AA4767BB5AC40020E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE00E42827CDF22F002A96F2 /* SplashScreen Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SplashScreen Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#   ON/OFF Script Toggle (script ON with #, script OFF without #)\n#exit 0\n\n#   App vesion / Build version constants\nsourceFilePath=\"$PROJECT_DIR/VROOM/LaunchScreen.storyboard\"\nversionNumber=\"$MARKETING_VERSION\"\nbuildNumber=\"$CURRENT_PROJECT_VERSION\"\n\n#   Output version & build numbers into a label on LaunchScreen.storyboard\nsed -i .bak -e \"/userLabel=\\\"APP_VERSION\\\"/s/text=\\\"[^\\\"]*\\\"/text=\\\"Version $versionNumber\\\"/\" \"$sourceFilePath\"\n";
+		};
+		C4974482C2F558C9115E22F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALL-VROOM/Pods-ALL-VROOM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE207A9028520881005CB3E9 /* UIImage+CustomExtensions.swift in Sources */,
+				AE207A9528520881005CB3E9 /* CGImagePropertyOrientation.swift in Sources */,
+				AE207A6028520876005CB3E9 /* Shaders.metal in Sources */,
+				AE207A9D28520881005CB3E9 /* CGImage+CVPixelBuffer.swift in Sources */,
+				AE207A9F28520881005CB3E9 /* CVPixelBuffer+Rotate.swift in Sources */,
+				AE207AB628520889005CB3E9 /* BanubaAdapter+WebRTC.swift in Sources */,
+				AE207AB328520889005CB3E9 /* BanubaAdapter+effects.swift in Sources */,
+				AE207ABA28520889005CB3E9 /* BanubaAdapter.swift in Sources */,
+				AE207AB228520889005CB3E9 /* BanubaAdapter+processing.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				AE207A9928520881005CB3E9 /* CVPixelBuffer+Create.swift in Sources */,
+				AE207A612852087A005CB3E9 /* DeepLabV3Int8LUT.mlmodel in Sources */,
+				AE207A8E28520881005CB3E9 /* UIImage+Extensions.swift in Sources */,
+				AE207A5F28520876005CB3E9 /* UIImage+Orientation.swift in Sources */,
+				AE207AC0285208C6005CB3E9 /* VirtualBackgroundManager.m in Sources */,
+				AE207A9728520881005CB3E9 /* MLMultiArray+Helpers.swift in Sources */,
+				AE207A9E28520881005CB3E9 /* MLModel+Images.swift in Sources */,
+				AE207A9C28520881005CB3E9 /* Array+Extensions.swift in Sources */,
+				AE207A8F28520881005CB3E9 /* Predictions.swift in Sources */,
+				AE207AB528520889005CB3E9 /* BanubaAdapter+JSModule.swift in Sources */,
+				AE207A9228520881005CB3E9 /* UIImage+CVPixelBuffer.swift in Sources */,
+				AE207A9328520881005CB3E9 /* MLMultiArray+Image.swift in Sources */,
+				AE207A8D28520881005CB3E9 /* NonMaxSuppression.swift in Sources */,
+				AE207A5E28520876005CB3E9 /* MetalConstanst.swift in Sources */,
+				AE207ABD285208C2005CB3E9 /* VirtaulBackground.swift in Sources */,
+				AE207A5D28520876005CB3E9 /* MetalHelper.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				AE207A9828520881005CB3E9 /* CoreML+Combine.swift in Sources */,
+				AEDCA3CE282E501200B9C175 /* EventEmiterToJs.m in Sources */,
+				AE207A9428520881005CB3E9 /* CGImage+RawBytes.swift in Sources */,
+				AE207A9128520881005CB3E9 /* UIImage+RawBytes.swift in Sources */,
+				AEDCA3CB282E500D00B9C175 /* ScheenshareEventEmiter.m in Sources */,
+				AE207AB428520889005CB3E9 /* BanubaClientToken.swift in Sources */,
+				AE207A9628520881005CB3E9 /* GradientPoint.swift in Sources */,
+				AE207A8C28520881005CB3E9 /* Math.swift in Sources */,
+				AE207A9B28520881005CB3E9 /* CVPixelBuffer+Resize.swift in Sources */,
+				AE207A9A28520881005CB3E9 /* AvCaptureOrientation+ETS.swift in Sources */,
+				AE207AB828520889005CB3E9 /* BanubaAdapter+Camera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6E35E8282539BE000D569D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE207A6828520880005CB3E9 /* UIImage+CustomExtensions.swift in Sources */,
+				AE207A6D28520880005CB3E9 /* CGImagePropertyOrientation.swift in Sources */,
+				AE207A5828520874005CB3E9 /* Shaders.metal in Sources */,
+				AE207A7528520880005CB3E9 /* CGImage+CVPixelBuffer.swift in Sources */,
+				AE207A7728520880005CB3E9 /* CVPixelBuffer+Rotate.swift in Sources */,
+				AE207AA428520887005CB3E9 /* BanubaAdapter+WebRTC.swift in Sources */,
+				AE207AA128520887005CB3E9 /* BanubaAdapter+effects.swift in Sources */,
+				AE207AA828520887005CB3E9 /* BanubaAdapter.swift in Sources */,
+				AE207AA028520887005CB3E9 /* BanubaAdapter+processing.swift in Sources */,
+				AEDCA3D0282E501400B9C175 /* EventEmiterToJs.m in Sources */,
+				AE207A7128520880005CB3E9 /* CVPixelBuffer+Create.swift in Sources */,
+				AE207A632852087C005CB3E9 /* DeepLabV3Int8LUT.mlmodel in Sources */,
+				AE207A6628520880005CB3E9 /* UIImage+Extensions.swift in Sources */,
+				AE207A5728520874005CB3E9 /* UIImage+Orientation.swift in Sources */,
+				AE207ABE285208C4005CB3E9 /* VirtualBackgroundManager.m in Sources */,
+				AE207A6F28520880005CB3E9 /* MLMultiArray+Helpers.swift in Sources */,
+				AE207A7628520880005CB3E9 /* MLModel+Images.swift in Sources */,
+				AE207A7428520880005CB3E9 /* Array+Extensions.swift in Sources */,
+				AE207A6728520880005CB3E9 /* Predictions.swift in Sources */,
+				AE207AA328520887005CB3E9 /* BanubaAdapter+JSModule.swift in Sources */,
+				AE207A6A28520880005CB3E9 /* UIImage+CVPixelBuffer.swift in Sources */,
+				AE207A6B28520880005CB3E9 /* MLMultiArray+Image.swift in Sources */,
+				AE207A6528520880005CB3E9 /* NonMaxSuppression.swift in Sources */,
+				AE207A5628520874005CB3E9 /* MetalConstanst.swift in Sources */,
+				AE207ABB285208C1005CB3E9 /* VirtaulBackground.swift in Sources */,
+				AE207A5528520874005CB3E9 /* MetalHelper.swift in Sources */,
+				AEDCA3CD282E500F00B9C175 /* ScheenshareEventEmiter.m in Sources */,
+				AE207A7028520880005CB3E9 /* CoreML+Combine.swift in Sources */,
+				9B6E35E9282539BE000D569D /* AppDelegate.m in Sources */,
+				AE207A6C28520880005CB3E9 /* CGImage+RawBytes.swift in Sources */,
+				AE207A6928520880005CB3E9 /* UIImage+RawBytes.swift in Sources */,
+				9B6E35EA282539BE000D569D /* main.m in Sources */,
+				AE207AA228520887005CB3E9 /* BanubaClientToken.swift in Sources */,
+				AE207A6E28520880005CB3E9 /* GradientPoint.swift in Sources */,
+				AE207A6428520880005CB3E9 /* Math.swift in Sources */,
+				AE207A7328520880005CB3E9 /* CVPixelBuffer+Resize.swift in Sources */,
+				AE207A7228520880005CB3E9 /* AvCaptureOrientation+ETS.swift in Sources */,
+				AE207AA628520887005CB3E9 /* BanubaAdapter+Camera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6E360E28253AB2000D569D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6E360F28253AB2000D569D /* SocketConnection.swift in Sources */,
+				9B6E361028253AB2000D569D /* SampleUploader.swift in Sources */,
+				9B6E361128253AB2000D569D /* DarwinNotificationCenter.swift in Sources */,
+				9B6E361228253AB2000D569D /* SampleHandler.swift in Sources */,
+				9B6E361328253AB2000D569D /* Atomic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6FE07C27E1CF7B00DB6D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7720372855C326006CB42A /* BanubaAdapter+JSModule.swift in Sources */,
+				AE207A7C28520881005CB3E9 /* UIImage+CustomExtensions.swift in Sources */,
+				AE207A8128520881005CB3E9 /* CGImagePropertyOrientation.swift in Sources */,
+				AE207A5C28520875005CB3E9 /* Shaders.metal in Sources */,
+				AE207A8928520881005CB3E9 /* CGImage+CVPixelBuffer.swift in Sources */,
+				AE207A8B28520881005CB3E9 /* CVPixelBuffer+Rotate.swift in Sources */,
+				9B6FE07D27E1CF7B00DB6D14 /* AppDelegate.m in Sources */,
+				AE207A8528520881005CB3E9 /* CVPixelBuffer+Create.swift in Sources */,
+				AE207A622852087B005CB3E9 /* DeepLabV3Int8LUT.mlmodel in Sources */,
+				AE207A7A28520881005CB3E9 /* UIImage+Extensions.swift in Sources */,
+				AE7720312855C322006CB42A /* VirtualBackgroundManager.m in Sources */,
+				AE207A5B28520875005CB3E9 /* UIImage+Orientation.swift in Sources */,
+				AE7720332855C326006CB42A /* BanubaAdapter+Camera.swift in Sources */,
+				AE207A8328520881005CB3E9 /* MLMultiArray+Helpers.swift in Sources */,
+				AE207A8A28520881005CB3E9 /* MLModel+Images.swift in Sources */,
+				AE7720352855C326006CB42A /* BanubaAdapter+effects.swift in Sources */,
+				AE77203A2855C326006CB42A /* BanubaAdapter.swift in Sources */,
+				AE207A8828520881005CB3E9 /* Array+Extensions.swift in Sources */,
+				AE207A7B28520881005CB3E9 /* Predictions.swift in Sources */,
+				AE207A7E28520881005CB3E9 /* UIImage+CVPixelBuffer.swift in Sources */,
+				AE7720382855C326006CB42A /* BanubaAdapter+processing.swift in Sources */,
+				AE7720302855C31F006CB42A /* VirtaulBackground.swift in Sources */,
+				AE7720322855C326006CB42A /* BanubaAdapter+WebRTC.swift in Sources */,
+				AE207A7F28520881005CB3E9 /* MLMultiArray+Image.swift in Sources */,
+				AE207A7928520881005CB3E9 /* NonMaxSuppression.swift in Sources */,
+				AE7720362855C326006CB42A /* BanubaClientToken.swift in Sources */,
+				AE207A5A28520875005CB3E9 /* MetalConstanst.swift in Sources */,
+				AE207A5928520875005CB3E9 /* MetalHelper.swift in Sources */,
+				9B6FE07E27E1CF7B00DB6D14 /* main.m in Sources */,
+				AE207A8428520881005CB3E9 /* CoreML+Combine.swift in Sources */,
+				AEDCA3CF282E501300B9C175 /* EventEmiterToJs.m in Sources */,
+				AE207A8028520881005CB3E9 /* CGImage+RawBytes.swift in Sources */,
+				AE207A7D28520881005CB3E9 /* UIImage+RawBytes.swift in Sources */,
+				AEDCA3CC282E500E00B9C175 /* ScheenshareEventEmiter.m in Sources */,
+				AE207A8228520881005CB3E9 /* GradientPoint.swift in Sources */,
+				AE207A7828520881005CB3E9 /* Math.swift in Sources */,
+				AE207A8728520881005CB3E9 /* CVPixelBuffer+Resize.swift in Sources */,
+				AE207A8628520881005CB3E9 /* AvCaptureOrientation+ETS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6FE0A327E1D28900DB6D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6FE0A427E1D28900DB6D14 /* SocketConnection.swift in Sources */,
+				9B6FE0A527E1D28900DB6D14 /* SampleUploader.swift in Sources */,
+				9B6FE0A627E1D28900DB6D14 /* DarwinNotificationCenter.swift in Sources */,
+				9B6FE0A727E1D28900DB6D14 /* SampleHandler.swift in Sources */,
+				9B6FE0A827E1D28900DB6D14 /* Atomic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94E271D27AB920300DB3C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94E273027ABA7D300DB3C47 /* SocketConnection.swift in Sources */,
+				A94E273427ABAC3D00DB3C47 /* SampleUploader.swift in Sources */,
+				A94E273227ABAB7800DB3C47 /* DarwinNotificationCenter.swift in Sources */,
+				A94E272627AB920300DB3C47 /* SampleHandler.swift in Sources */,
+				A94E273727ABAC7B00DB3C47 /* Atomic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6E361E28253ADB000D569D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6E360D28253AB2000D569D /* Broadcast Extension-beta */;
+			targetProxy = 9B6E361D28253ADB000D569D /* PBXContainerItemProxy */;
+		};
+		9B6FE0BD27E218D100DB6D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6FE0A227E1D28900DB6D14 /* Broadcast Extension-inhouse */;
+			targetProxy = 9B6FE0BC27E218D100DB6D14 /* PBXContainerItemProxy */;
+		};
+		A94E272927AB920300DB3C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94E272027AB920300DB3C47 /* Broadcast Extension */;
+			targetProxy = A94E272827AB920300DB3C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70D8BBCD6771E8E2B552B7D /* Pods-ALL-VROOM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VROOM/VROOM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GMUSMRW9J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VROOM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truecorp.vconnect;
+				PRODUCT_NAME = VROOM;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VROOM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E574D90F187C695CEC2166B /* Pods-ALL-VROOM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VROOM/VROOM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GMUSMRW9J;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = VROOM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truecorp.vconnect;
+				PRODUCT_NAME = VROOM;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VROOM-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE00E45727CF4E02002A96F2 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE00E45727CF4E02002A96F2 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6E3609282539BE000D569D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6323C4BEC3A89A64319F784B /* Pods-ALL-VROOM-beta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "VROOM/VROOM-beta.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63Z3KJVZ86;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VROOM/VROOM-beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truevirtualworld.vroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VROOM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		9B6E360A282539BE000D569D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2952F171AB237888BB5F9E65 /* Pods-ALL-VROOM-beta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "VROOM/VROOM-beta.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63Z3KJVZ86;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VROOM/VROOM-beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truevirtualworld.vroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VROOM-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		9B6E361828253AB2000D569D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Broadcast Extension/Broadcast Extension-beta.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 63Z3KJVZ86;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broadcast Extension/Broadcast Extension-beta-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NewVROOM;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truevirtualworld.vroom.broadcastextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6E361928253AB2000D569D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Broadcast Extension/Broadcast Extension-beta.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 63Z3KJVZ86;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broadcast Extension/Broadcast Extension-beta-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NewVROOM;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truevirtualworld.vroom.broadcastextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B6FE09E27E1CF7B00DB6D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71931C32325D9F3B629ABCE /* Pods-ALL-VROOM-inhouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "VROOM/VROOM-inhouse.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXYYB9SL4L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VROOM/VROOM-inhouse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truemoveent.vconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VROOM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		9B6FE09F27E1CF7B00DB6D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADCEA75F495E2885DE4C0F9 /* Pods-ALL-VROOM-inhouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "VROOM/VROOM-inhouse.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXYYB9SL4L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VROOM/VROOM-inhouse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truemoveent.vconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VROOM-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		9B6FE0AD27E1D28900DB6D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Broadcast Extension/Broadcast-inhouse.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FXYYB9SL4L;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broadcast Extension/Broadcast Extension-inhouse-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VROOM-inhouse";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truemoveent.vconnect.broadcast.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6FE0AE27E1D28900DB6D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Broadcast Extension/Broadcast-inhouse.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FXYYB9SL4L;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broadcast Extension/Broadcast Extension-inhouse-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VROOM-inhouse";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truemoveent.vconnect.broadcast.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A94E272C27AB920300DB3C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Broadcast Extension/Broadcast Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8GMUSMRW9J;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broadcast Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VROOM;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truecorp.vconnect.broadcastextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94E272D27AB920300DB3C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Broadcast Extension/Broadcast Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8GMUSMRW9J;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broadcast Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VROOM;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truecorp.vconnect.broadcastextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VROOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VROOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6E3608282539BE000D569D /* Build configuration list for PBXNativeTarget "VROOM-beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6E3609282539BE000D569D /* Debug */,
+				9B6E360A282539BE000D569D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6E361728253AB2000D569D /* Build configuration list for PBXNativeTarget "Broadcast Extension-beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6E361828253AB2000D569D /* Debug */,
+				9B6E361928253AB2000D569D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6FE09D27E1CF7B00DB6D14 /* Build configuration list for PBXNativeTarget "VROOM-inhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6FE09E27E1CF7B00DB6D14 /* Debug */,
+				9B6FE09F27E1CF7B00DB6D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6FE0AC27E1D28900DB6D14 /* Build configuration list for PBXNativeTarget "Broadcast Extension-inhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6FE0AD27E1D28900DB6D14 /* Debug */,
+				9B6FE0AE27E1D28900DB6D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94E272B27AB920300DB3C47 /* Build configuration list for PBXNativeTarget "Broadcast Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94E272C27AB920300DB3C47 /* Debug */,
+				A94E272D27AB920300DB3C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
